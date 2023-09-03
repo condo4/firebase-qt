@@ -5,7 +5,7 @@
 #include <QtAndroid>
 #include <QAndroidJniEnvironment>
 #elif defined(Q_OS_ANDROID)
-#include <QtCore/private/qandroidextras_p.h>
+#include <QCoreApplication>
 #include <QJniEnvironment>
 #endif
 
